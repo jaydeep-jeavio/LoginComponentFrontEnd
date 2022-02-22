@@ -1,0 +1,32 @@
+
+.main-container{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px black;
+}
+
+mat-card{
+  width: 30vw;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+mat-form-field{
+  display: inline;
+}
+
+form{
+  width: 100%;
+}
+
+
+
